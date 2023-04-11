@@ -856,7 +856,7 @@ const Report = () => {
               <Grid style={{ marginLeft: '-20px' }}>
                 <Grid style={{ width: '1210px', overflow: 'auto' }}>
                   <Grid id="chart" style={{ width: '100%' }}>
-                    <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', marginBottom: '10px' }}>
+                    <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', marginBottom: '-20px' }}>
                       <div style={{ backgroundColor: 'red', borderRadius: '50%', width: '20px', height: '20px', marginRight: '10px' }}></div>
                       <div>Area of Development</div>
                       <div style={{ marginLeft: '10px', backgroundColor: 'orange', borderRadius: '50%', width: '20px', height: '20px', marginRight: '10px' }}></div>
@@ -879,7 +879,7 @@ const Report = () => {
               <Grid style={{ marginLeft: '-20px' }}>
                 <Grid style={{ width: '1210px', overflow: 'auto' }}>
                   <Grid id="chart" style={{ width: '100%' }}>
-                    <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', marginBottom: '10px' }}>
+                    <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', marginBottom: '-20px' }}>
                       <div style={{ backgroundColor: 'red', borderRadius: '50%', width: '20px', height: '20px', marginRight: '10px' }}></div>
                       <div>Area of Development</div>
                       <div style={{ marginLeft: '10px', backgroundColor: 'orange', borderRadius: '50%', width: '20px', height: '20px', marginRight: '10px' }}></div>
@@ -902,7 +902,7 @@ const Report = () => {
               <Grid style={{ marginLeft: '-20px' }}>
                 <Grid style={{ width: '1210px', overflow: 'auto' }}>
                   <Grid id="chart" style={{ width: '100%' }}>
-                    <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', marginBottom: '10px' }}>
+                    <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', marginBottom: '-20px' }}>
                       <div style={{ backgroundColor: 'red', borderRadius: '50%', width: '20px', height: '20px', marginRight: '10px' }}></div>
                       <div>Area of Development</div>
                       <div style={{ marginLeft: '10px', backgroundColor: 'orange', borderRadius: '50%', width: '20px', height: '20px', marginRight: '10px' }}></div>
@@ -925,7 +925,7 @@ const Report = () => {
               <Grid style={{ marginLeft: '-20px' }}>
                 <Grid style={{ width: '1210px', overflow: 'auto' }}>
                   <Grid id="chart" style={{ width: '100%' }}>
-                    <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', marginBottom: '10px' }}>
+                    <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', marginBottom: '-20px' }}>
                       <div style={{ backgroundColor: 'red', borderRadius: '50%', width: '20px', height: '20px', marginRight: '10px' }}></div>
                       <div>Area of Development</div>
                       <div style={{ marginLeft: '10px', backgroundColor: 'orange', borderRadius: '50%', width: '20px', height: '20px', marginRight: '10px' }}></div>
@@ -948,7 +948,7 @@ const Report = () => {
               <Grid style={{ marginLeft: '-20px' }}>
                 <Grid style={{ width: '1210px', overflow: 'auto' }}>
                   <Grid id="chart" style={{ width: '100%' }}>
-                    <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', marginBottom: '10px' }}>
+                    <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', marginBottom: '-20px' }}>
                       <div style={{ backgroundColor: 'red', borderRadius: '50%', width: '20px', height: '20px', marginRight: '10px' }}></div>
                       <div>Area of Development</div>
                       <div style={{ marginLeft: '10px', backgroundColor: 'orange', borderRadius: '50%', width: '20px', height: '20px', marginRight: '10px' }}></div>
