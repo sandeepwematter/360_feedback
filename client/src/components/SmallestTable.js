@@ -22,16 +22,20 @@ export default function AccessibleTable(props) {
 
     const rows = [];
     let i = 1;
+    let x = 0;
     if (resp[6]>=0) {
       rows.push(createData(i, val[parseInt(resp[6] / num)], allCompetencyValue[resp[6] % num], resp[7]));
-      i++
+      i++;
+      x++;
     }
     if (resp[8]>=0) {
       rows.push(createData(i, val[parseInt(resp[8] / num)], allCompetencyValue[resp[8] % num], resp[9]));
-      i++
+      i++;
+      x++;
     }
     if (resp[10]>=0) {
       rows.push(createData(i, val[parseInt(resp[10] / num)], allCompetencyValue[resp[10] % num], resp[11]));
+      x++;
     }
       console.log(rows)
 
@@ -39,7 +43,7 @@ export default function AccessibleTable(props) {
         <TableContainer component={Paper}>
       <Table sx={{ minWidth: 550 }} size="small" aria-label="a dense table" style={{ width: '100%', height: '100%' }}>
       <TableHead style={{textAlign: 'center'}}>
-        <TableRow>Bottom 3 Smallest Value</TableRow>
+        <TableRow>Bottom {x} Smallest Value</TableRow>
       </TableHead>
         <TableHead>
           <TableRow>

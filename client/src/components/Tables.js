@@ -124,7 +124,7 @@ export default function AccessibleTable(props) {
                     <TableHead>
                         <TableRow >
                             <TableCell style={{ fontSize: '21px' }}>Parameter</TableCell>
-                            <TableCell align="right" style={{ fontSize: '21px' }}>Responses</TableCell>
+                            <TableCell align="middle" style={{ fontSize: '21px' }}>Responses</TableCell>
                             {props.allCompetencyValue.map((user, index) => (
                                 <TableCell
                                     key={index}

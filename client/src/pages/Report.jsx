@@ -1,7 +1,6 @@
 import { Accordion, Box, CircularProgress, FormControl, Grid, InputLabel, MenuItem, Select } from '@mui/material';
 import { Container } from '@mui/system'
 import React, { useEffect, useState } from 'react'
-// import ReactApexChart from 'react-apexcharts';
 import axios from 'axios';
 import AccordionSummary from '@mui/material/AccordionSummary';
 import Typography from '@mui/material/Typography';
@@ -353,7 +352,7 @@ const Report = () => {
       let TypeDropdown = ["All Competency", "All Values"];
       let TypeDropdownCompetency = AllKeys.filter(user => user.slice(0, -5).toLowerCase() === "competency");
       let TypeDropdownValue = AllKeys.filter(user => user.slice(0, -5).toLowerCase() === "value");
-      let AllInOne = [TypeDropdownCompetency,TypeDropdownValue];
+      let AllInOne = [TypeDropdownCompetency, TypeDropdownValue];
       let uniqueStrings = new Set();
       TypeDropdownforallvalue = TypeDropdownforallvalue.map(str => {
         let modifiedString = str.substring(0, str.length - 3);
@@ -396,7 +395,7 @@ const Report = () => {
         }
       })
       let competencyValueInOneArry = [uniquecompetency, uniquevalue];
-      
+
       let totalFeedbacks = data.data.length;
       let len = Object.keys(uniqueObject).length;
       let m = 0;
@@ -503,8 +502,8 @@ const Report = () => {
               let arrayForDefination = [];
               let realcopmetencyvalue = [];
               for (let i = 0; i < competency3[0].length - 1; i++) {
-              let pp = competencyValueInOneArry[t][i]
-              let zz = ArrayForThemecode[pp][0].theme[0];
+                let pp = competencyValueInOneArry[t][i]
+                let zz = ArrayForThemecode[pp][0].theme[0];
                 realcopmetencyvalue.push(zz)
                 arrayForDefination.push({ name: realcopmetencyvalue[i], defination: ArrayForThemecode[pp][0].statement[0] })
               }
@@ -686,12 +685,12 @@ const Report = () => {
                 }
               }
               setDataValue([...competency3])
-              
+
               let arrayForDefination = [];
               let realcopmetencyvalue = [];
               for (let i = 0; i < competency3[0].length - 1; i++) {
-              let pp = AllCompetencyValue[t][i]
-              let zz = ArrayForEachQuestioncode[pp][0].driver[0];
+                let pp = AllCompetencyValue[t][i]
+                let zz = ArrayForEachQuestioncode[pp][0].driver[0];
                 realcopmetencyvalue.push(zz)
                 arrayForDefination.push({ name: realcopmetencyvalue[i], defination: ArrayForEachQuestioncode[pp][0].description[0] })
               }
